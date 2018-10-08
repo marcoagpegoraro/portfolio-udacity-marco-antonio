@@ -64,9 +64,7 @@ hr {
     /* margin-right: 0%; */
     width: 31%;
 }
-.imagem:last-of-type{
-    /* margin-left: 0%; */
-}
+
 .imagem > *{
     width: 100%;
 }
@@ -84,4 +82,28 @@ hr {
 
 h3 {
     font-size: 40px;
+}
+
+@media screen and (max-width: 900px) {   
+    .imagem {
+        margin: 1%;
+        /* margin-right: 0%; */
+        width: 99%;
+    }
+}
+
+
+@media screen and (max-width: 450px) {       
+    .logo {
+        width: 100%;
+        margin: 0%;
+        text-align: center;
+        
+    }
+
+    .titulo-principal {
+        width: 100%;
+        margin: 0%;
+        text-align: center;
+    }
 }
